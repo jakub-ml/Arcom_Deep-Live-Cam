@@ -1,0 +1,6 @@
+services:
+  python-app:
+    image: jmfingoweb/faceswap
+    volumes:
+      - .:/app
+      - ./zip:/root/.insightface

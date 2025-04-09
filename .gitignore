@@ -1,0 +1,48 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.idea
+.todo
+*.log
+*.backup
+tf_env/
+#*.png
+*.mp4
+*.mkv
+
+.tmp/
+temp/
+.venv/
+venv/
+env/
+workflow/
+gfpgan/
+models/inswapper_128.onnx
+models/GFPGANv1.4.pth
+*.onnx
+models/DMDNet.pth
+faceswap/
+.vscode/
+switch_states.json
+zip/
+zip/models/buffalo_l.zip
+
+# Ignoruj pliki w virtualenv lub lokalne zależności
+faceswap
+
+# Ignoruj pliki modeli (jeśli nie muszą być w repo)
+utils/models/*.pth
+utils/models/*.onnx
+gfpgan/weights/*.pth
+
+# Ignoruj całą paczkę Pythona (jeśli używasz Dockera, to lepiej polegać na requirements.txt)
+*.so
+*.so.*
+
+# Ogólnie ignoruj duże pliki binarne
+*.ckpt
+*.pt
+*.pth
+*.onnx
+gfpgan/weights/
